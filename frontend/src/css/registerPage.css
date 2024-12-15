@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #380b44;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+h2{
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    font-family: "Rubik", serif;
+    font-size: 3.5rem;
+    margin-bottom: 1rem;;
+    margin-top: 1rem;
+}
+
+p{
+    color: #fff;
+    width: 600px;
+}
+
+h3{
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+
+.container-register{
+    padding: 0.5rem;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    background-image: url("../assets/img/fondo_login.jpg");
+    box-shadow: 0px 0px 13px 0px rgba(6, 1, 1, 0.273) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.panel-title__register{
+    width: 600px;
+    margin-right: 0; 
+}
+
+p.panel-title__register{
+    font-size: 1.2rem;
+
+}
+
+
+.panel-register__container{
+    padding: 40px;
+    height: 300px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 2;
+    margin-left: 10rem;
+    background: rgba(255, 255, 255, 0.158);
+    
+}
+
+.form-register{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form-register-space {
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+  
+.form-register-space label {
+    font-size: 1.5rem;
+    color: #fff;
+}
+  
+.form-register-space input {
+    width: 100%;
+    height: 25px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+  
+.form-register-space input:focus {
+    border-color: #fff;
+    outline: none;
+}
+
+.form-actions {
+    width: 25.7rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+
+.form-actions button {
+    width: 103%;
+    background-color: #e54b4d;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+  
+.form-register .form-actions button:hover {
+    background-color: #ef7935;
+}
+
+.links {
+    padding-top: 1rem;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1rem;
+}
+  
+.links a {
+    color: #ffffff;
+    text-decoration: none;
+}
+  
+.links a:hover {
+    text-decoration: underline;
+    font-size: 1.2rem;
+}
+  
+.text-alert{
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 400;
+}
